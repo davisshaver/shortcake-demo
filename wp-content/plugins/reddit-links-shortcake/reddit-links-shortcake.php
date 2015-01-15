@@ -17,7 +17,7 @@ add_action( 'init', function() {
 			'domain' => 'fusion.net'
 		) );
 
-		$reddit_url = 'http://www.reddit.com/domain/' . $atts['domain'] . '/hot/.embed?limit=' . $atts['count'] . '&t=' . $atts['range'];
+		$reddit_url = 'http://www.reddit.com/domain/' . $attr['domain'] . '/hot/.embed?limit=' . $attr['count'] . '&t=' . $attr['range'];
 
 		ob_start();
 
